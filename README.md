@@ -67,8 +67,8 @@ DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=outdoor_scheduler
-DB_USERNAME=your_username
-DB_PASSWORD=your_password
+DB_USERNAME=root
+DB_PASSWORD=
 ```
 
 #### Run Database Migrations
@@ -99,14 +99,6 @@ cd frontend
 npm install
 # or if using yarn
 yarn install
-```
-
-#### Environment Configuration
-Create a `.env` file in the frontend directory:
-
-```env
-VITE_API_BASE_URL=http://localhost:8000/api
-VITE_BMKG_API_URL=https://data.bmkg.go.id/prakiraan-cuaca
 ```
 
 #### Start Vue.js Development Server
